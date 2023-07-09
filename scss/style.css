@@ -7,7 +7,6 @@ body {
 .navbar img {
   height: 130px;
 }
-
 .navbar a {
   margin: 0px 20px;
   font-size: 20px;
@@ -19,7 +18,6 @@ body {
   padding: 14px 15px;
   text-decoration: none;
 }
-
 .navbar a:hover {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
@@ -34,11 +32,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .container-xxl h1, .container-xxl p {
   color: white;
 }
-
 .container-xxl button {
   font-size: 2em;
   font-weight: bold;
@@ -49,7 +45,6 @@ body {
   color: rgb(255, 255, 255);
   background-color: #6088AE;
 }
-
 .container-xxl button:hover {
   background-color: #333;
 }
@@ -85,17 +80,14 @@ body {
   grid-gap: 20px;
   justify-items: center;
 }
-
 .news-section .news-article img {
   max-width: 100%;
   height: auto;
 }
-
 .news-section .news-article p {
   color: black;
   font-size: 15px;
 }
-
 .news-section .news-article h2 {
   font-size: 25px;
 }
@@ -107,13 +99,11 @@ body {
   grid-gap: 20px;
   margin-bottom: 40px;
 }
-
 .videos-section .video {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
 }
-
 .videos-section .video iframe {
   position: absolute;
   top: 0;
@@ -128,7 +118,6 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
 }
-
 .images-section img {
   max-width: 100%;
   height: 100%;
@@ -154,12 +143,10 @@ body {
 .section {
   margin-bottom: 40px;
 }
-
 .section h2 {
   margin-bottom: 10px;
   text-align: center;
 }
-
 .section .section-item {
   display: flex;
   flex-wrap: wrap;
@@ -182,17 +169,14 @@ body {
   opacity: 0;
   transition: 0.6s;
 }
-
 .titulobasket:hover {
   opacity: 1;
 }
-
 .titulobasket h1 {
   font-size: 55px;
   color: transparent;
   -webkit-text-stroke: 3px #00BA95;
 }
-
 .titulobasket > * {
   transform: translateY(25px);
   transition: transform 0.6;
@@ -202,7 +186,6 @@ body {
   width: 500px;
   position: relative;
 }
-
 .imagebasquet img {
   width: 100%;
   display: block;
@@ -214,7 +197,6 @@ body {
   padding: 10px;
   width: 300px;
 }
-
 .news-article h3 {
   margin-top: 0;
 }
@@ -225,7 +207,6 @@ body {
   padding-bottom: 56.25%;
   height: 0;
 }
-
 .video-container iframe {
   position: absolute;
   top: 0;
@@ -242,7 +223,6 @@ body {
 .tennis-section {
   margin-bottom: 40px;
 }
-
 .tennis-section h2 {
   font-size: 50px;
   color: transparent;
@@ -267,16 +247,13 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
 .tennis-item p {
   color: black0;
 }
-
 .tennis-item img {
   max-width: 100%;
   height: auto;
 }
-
 .tennis-item h3 {
   margin-top: 0;
 }
@@ -286,7 +263,6 @@ body {
   padding-bottom: 56.25%;
   height: 0;
 }
-
 .tennis-container iframe {
   position: absolute;
   padding: 10px 0;
@@ -361,6 +337,4 @@ body {
 
 button:hover {
   background-color: #312844;
-} 
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -373,7 +373,7 @@ body {
   }
   
   
-  .carta button{
+  .boton-insta{
     font-size: 1em;
     font-weight: bold;
     padding: 10px 30px;
@@ -381,7 +381,17 @@ body {
     border: 3px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: rgb(255, 255, 255);
+    background-color: #d6249f ;
+  }
+
+  .boton-face{
+    @extend .boton-insta;
     background-color: #6088AE;
+  }
+
+  .boton-you{
+    @extend .boton-insta;
+    background-color: red;
   }
   
   button:hover{

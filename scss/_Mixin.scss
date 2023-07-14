@@ -2,3 +2,9 @@
     height: $alto;
     width: $ancho;
 }
+
+@mixin flex ($dis,$just,$dir,) {
+    display: $dis;
+    justify-content: $just;
+    flex-direction: $dir;
+}
